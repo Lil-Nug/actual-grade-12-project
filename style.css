@@ -1,0 +1,75 @@
+/* html{
+    overflow-x: hidden;
+} */
+
+body{
+    margin:0;
+    background:#06190D;
+    color:#D9F7E5;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table{
+    border:2px solid rgba(9, 236, 100, 0.7);
+    width:100vw;
+    max-height:70vh;
+    display:block;
+    overflow-y: scroll;
+    border-collapse: collapse;
+    text-align: center;
+    font-weight:900;
+}
+
+.t2{
+    max-height: 27vh;
+}
+th{
+    border-collapse: collapse;
+    width:100vw;
+    border:1.5px solid #21F877;
+}
+tr,td{
+    height:2rem;
+    border: 1px solid rgba(9, 236, 100,0.3);
+}
+tr:nth-child(even){
+    background:#082614;
+}
+
+
+.buy{
+    display:grid;
+    width: 30vw;
+}
+
+.sell{
+    width: 30vw;
+    display:grid;
+}
+input[type=submit]{
+    position:relative;
+    left:30%;
+    margin-top:1rem;
+    width:30%;
+}
+
+section{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    width:100vw;
+}
+
+.output{
+    position:absolute;
+    left:50%;
+    transform:translate(-50%);
+    border: 2px solid #D9F7E5;
+}
+
+.cprices{
+    border:0;
+    position:absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
